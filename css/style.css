@@ -1,0 +1,27 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.swiper {
+  overflow: hidden;
+}
+
+.slide {
+  aspect-ratio: 16/9;
+  background-size: cover;
+}
+
+.box1 {
+  background-image: url(/img/slide1.jpeg);
+}
+
+.box2 {
+  background-image: url(/img/slide2.jpeg);
+}
+
+.box3 {
+  background-image: url(/img/slide3.jpeg);
+}
